@@ -2,12 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 
-constructor(props) {
-    super(props);
-    this.state = {
-      value: null,
-    };
-  }
 class Square extends React.Component {
   render() {
     return (
