@@ -14,9 +14,8 @@ class Square extends React.Component {
 
 class Board extends React.Component {
   renderSquare(i) {
-    return <Square val/>;
+    return <Square value={i} />;
   }
-
   render() {
     const status = 'Next player: X';
 
