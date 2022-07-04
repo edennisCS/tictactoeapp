@@ -51,7 +51,7 @@ class Game extends React.Component {
           <Board />
         </div>
         <div className="game-info">
-          <div>{/* status */}</div>
+          <div>{/SSS* status */}</div>
           <ol>{this.props.value}</ol>
         </div>
       </div>
