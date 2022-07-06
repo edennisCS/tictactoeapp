@@ -8,7 +8,7 @@ function Square(props) {
       {props.value}
     </button>
   );
-  
+
   render() {
     return (
       <button
