@@ -28,6 +28,7 @@ class Board extends React.Component {
     this.state = {
       squares: Array(9).fill(null),
     };
+  
   }
   renderSquare(i) {
     return (
