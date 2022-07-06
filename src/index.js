@@ -10,7 +10,6 @@ function Square(props) {
   );
 }
     
-  }
   render() {
     return (
       <button
