@@ -10,9 +10,6 @@ function Square(props) {
   );
 }
     
-  render() {
-    return (
-      <button
 
 
 class Board extends React.Component {
