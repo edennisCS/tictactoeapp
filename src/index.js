@@ -17,10 +17,7 @@ class Board extends React.Component {
       squares: Array(9).fill(null),
     };
   
-  
-  }
-  
-  renderSquare(i) {
+    renderSquare(i) {
     return (
       <Square
         value={this.state.squares[i]}
@@ -28,6 +25,9 @@ class Board extends React.Component {
       />
     );
   }
+  }
+  
+
   render() {
     const status = 'Next player: X';
 
