@@ -22,7 +22,6 @@ class Board extends React.Component {
     );
   }
  
-ss Board extends React.Component
   render() {
     return (
       <div>
