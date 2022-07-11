@@ -22,10 +22,10 @@ class Board extends React.Component {
     );
   }
  
+ss Board extends React.Component
   render() {
     return (
       <div>
-        <div className="status">{status}</div>
         <div className="board-row">
           {this.renderSquare(0)}
           {this.renderSquare(1)}
@@ -67,7 +67,7 @@ class Game extends React.Component {
       xIsNext: !this.state.xIsNext,
     });
   }
-  
+
   render() {
     return (
       <div>
