@@ -66,7 +66,7 @@ class Game extends React.Component {
       xIsNext: true,
     };
   }
-   s Board extends React.Component
+
   render() {
     return (
       <div>
